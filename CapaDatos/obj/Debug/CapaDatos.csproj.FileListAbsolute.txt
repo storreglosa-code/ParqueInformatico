@@ -1,0 +1,9 @@
+C:\Users\storreglosa\source\repos\ParqueInformatico\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\storreglosa\source\repos\ParqueInformatico\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\storreglosa\source\repos\ParqueInformatico\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\storreglosa\source\repos\ParqueInformatico\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\storreglosa\source\repos\ParqueInformatico\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\storreglosa\source\repos\ParqueInformatico\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\storreglosa\source\repos\ParqueInformatico\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
+C:\Users\storreglosa\source\repos\ParqueInformatico\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\storreglosa\source\repos\ParqueInformatico\CapaDatos\obj\Debug\CapaDatos.pdb
