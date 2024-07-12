@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewBag.Title = "Impresora";
+}
+
+<h2>Impresora</h2>
+
+<form action="">
+    <!--<label for="tipoDispositivo">Seleccione el tipo de dispositivo:</label>--> @*Traer de la BBDD*@
+    <!--<select id="tipoDispositivo" name="comboNuevoDispositivo">
+        <option value="1">Computadora</option>
+        <option value="2">Impresora</option>
+        <option value="3">Pantalla</option>
+        <option value="4">Escaner</option>
+        <option value="5">Server</option>
+    </select>
+    <br><br>
+
+    Seleccione el tipo de dispositivo:
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="1">Computadora</label>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="0">Impresora</label>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="1">Pantalla</label>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="0">Escaner</label>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="1">Server</label>
+    <br><br>-->
+
+
+
+    <label for="tipoDispositivo">Seleccione el formato del dispositivo:</label> @*Traer de la BBDD*@
+    <select id="tipoDispositivo" name="comboNuevoDispositivo">
+        <option value="4">formato 1</option>
+        <option value="5">formato 2</option>
+    </select>
+    <br><br>
+
+    <label for="NombreComputadora">N° de Serie:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+
+    @*<label for="NombreComputadora">Nombre de la Computadora:</label>
+        <input type="text" id="fname" name="fname"><br><br>*@
+
+    <label for="tipoDispositivo">Seleccione la marca del dispositivo:</label> @*Traer de la BBDD*@
+    <select id="tipoDispositivo" name="comboNuevoDispositivo">
+        <option value="4">Marca 1</option>
+        <option value="5">Marca 2</option>
+    </select>
+    <br><br>
+
+    <label for="tipoDispositivo">Seleccione el modelo del dispositivo:</label> @*Traer de la BBDD*@
+    <select id="tipoDispositivo" name="comboNuevoDispositivo">
+        <option value="4">modelo 1</option>
+        <option value="5">modelo 2</option>
+    </select>
+    <br><br>
+
+    <label for="datemax">Fecha de adquisición:</label>
+    <input type="datetime-local" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+
+    Estado:
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="1">Nuevo</label>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="0">Usado</label><br>
+    <br />
+
+    Comentario/Detalle: <br />
+    <textarea id="Detalle" cols="100" rows=8> Ejemplo: Gabinete golpeado en lateral derecho </textarea>
+    <br><br>
+
+
+    <label for="tipoDispositivo">Seleccione la dependencia a la que pertenece el dispositivo:</label> @*Traer de la BBDD*@
+    <select id="tipoDispositivo" name="comboNuevoDispositivo">
+        <option value="4">dependencia 1</option>
+        <option value="5">dependencia 2</option>
+    </select>
+    <br><br>
+
+    Wifi:
+    <label for="tipoDispositivo">Datos del wifi:</label> @*Traer de la BBDD*@
+    <select id="tipoDispositivo" name="comboNuevoDispositivo">
+        <option value="4">dependencia 1</option>
+        <option value="5">dependencia 2</option>
+    </select>
+    <br><br>
+
+
+
+
+
+    <input type="submit">
+</form>

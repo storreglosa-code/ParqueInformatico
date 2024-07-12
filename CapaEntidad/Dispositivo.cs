@@ -26,6 +26,8 @@ namespace CapaEntidad
 
         public string Detalle { get; set; }
 
+        public string MotivoBaja { get; set; }
+
         public string Serial { get; set; }
 
 

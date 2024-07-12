@@ -120,6 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DispositivoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -482,6 +483,12 @@
     <Content Include="Views\Home\Buscar.cshtml" />
     <Content Include="Views\Home\DN.cshtml" />
     <Content Include="Views\Home\DGA.cshtml" />
+    <Content Include="Views\Dispositivo\Nuevo.cshtml" />
+    <Content Include="Views\Dispositivo\Eliminar.cshtml" />
+    <Content Include="Views\Dispositivo\Computadora.cshtml" />
+    <Content Include="Views\Dispositivo\Impresora.cshtml" />
+    <Content Include="Views\Dispositivo\Escaner.cshtml" />
+    <Content Include="Views\Dispositivo\Pantalla.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

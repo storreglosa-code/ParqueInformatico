@@ -18,7 +18,7 @@
         <!-- Navbar Search-->
         <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
             <div class="input-group">
-                <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+                <input class="form-control" type="text" placeholder="Buscar..." aria-label="Buscar..." aria-describedby="btnNavbarSearch" />
                 <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
             </div>
         </form>
@@ -40,29 +40,19 @@
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
-                        @*<div class="sb-sidenav-menu-heading">INICIO</div>*@
-                        @*<div class="sb-nav-link-icon">
-                                <i class="fas fa-home"></i>
-                                <a class="nav-link" @Html.ActionLink("Página principal", "Index", "Home", new { area = "" }, new { @class = "nav-link" })>
-                                </a>
-                            </div>*@
-                        <a class="nav-link" href="/Home/Index" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+
+                        <a class="nav-link" href="@Url.Action("Index","Home")" @*"/Home/Index"*@ data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                             <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
                             Inicio
-                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            <div class="sb-sidenav-collapse-arrow"></div>
                         </a>
-                        @*<a class="nav-link " @Html.ActionLink("Página Principal", "Index", "Home", new { area = "" }, new { @class = "nav-link" })>
-                                <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
 
-                            </a>*@
 
-                        <a class="nav-link" href="/Home/DN" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                        <a class="nav-link" href="@Url.Action("DN","Home")" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                             <div class="sb-nav-link-icon"><i class="fas fa-building"></i></div>
                             DN
-                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            <div class="sb-sidenav-collapse-arrow"></div>
                         </a>
-
-
 
                         <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
@@ -70,9 +60,18 @@
                                 <a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
                             </nav>
                         </div>
-                        <a class="nav-link" href="/Home/DGA" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                        <a class="nav-link" href="@Url.Action("DGA","Home")" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                             <div class="sb-nav-link-icon"><i class="fas fa-building"></i></div>
                             DGA
+                            <div class="sb-sidenav-collapse-arrow"></div>
+                        </a>
+
+                        <div class="sb-sidenav-menu-heading">BASE DE DATOS</div>
+
+
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                            <div class="sb-nav-link-icon"><i class="fas fa-plus-circle"></i></div>
+                            Nuevo Dispositivo
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
                         <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
@@ -101,12 +100,12 @@
                                 </div>
                             </nav>
                         </div>
-                        <div class="sb-sidenav-menu-heading">BASE DE DATOS</div>
-                        <a class="nav-link" href="charts.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-plus-circle"></i></div>
-                            Nuevo Dispositivo
-                        </a>
-                        <a class="nav-link" href="tables.html">
+
+                        @*<a class="nav-link" href="@Url.Action("Nuevo","Dispositivo")" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+            <div class="sb-nav-link-icon"><i class="fas fa-plus-circle"></i></div>
+            Nuevo Dispositivo
+        </a>*@
+                        <a class="nav-link" href="@Url.Action("Eliminar","Dispositivo")" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                             <div class="sb-nav-link-icon"><i class="fas fa-minus-circle"></i></div>
                             Baja de Dispositivo
                         </a>

@@ -1,12 +1,190 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|c:\\users\\storreglosa\\source\\repos\\parqueinformatico\\capaadministrador\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|solutionrelative:capaadministrador\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|c:\\users\\storreglosa\\source\\repos\\parqueinformatico\\capaadministrador\\views\\dispositivo\\computadora.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|solutionrelative:capaadministrador\\views\\dispositivo\\computadora.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|c:\\users\\storreglosa\\source\\repos\\parqueinformatico\\capaadministrador\\views\\dispositivo\\pantalla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|solutionrelative:capaadministrador\\views\\dispositivo\\pantalla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|c:\\users\\storreglosa\\source\\repos\\parqueinformatico\\capaadministrador\\views\\dispositivo\\impresora.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|solutionrelative:capaadministrador\\views\\dispositivo\\impresora.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|c:\\users\\storreglosa\\source\\repos\\parqueinformatico\\capaadministrador\\views\\dispositivo\\escaner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|solutionrelative:capaadministrador\\views\\dispositivo\\escaner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|c:\\users\\storreglosa\\source\\repos\\parqueinformatico\\capaadministrador\\views\\dispositivo\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|solutionrelative:capaadministrador\\views\\dispositivo\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|c:\\users\\storreglosa\\source\\repos\\parqueinformatico\\capaadministrador\\controllers\\dispositivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|solutionrelative:capaadministrador\\controllers\\dispositivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|c:\\users\\storreglosa\\source\\repos\\parqueinformatico\\capaadministrador\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|solutionrelative:capaadministrador\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{031F1AD8-37FC-4BD4-BC04-697B99C0B69C}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\storreglosa\\source\\repos\\parqueinformatico\\capaentidad\\dispositivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{031F1AD8-37FC-4BD4-BC04-697B99C0B69C}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\dispositivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|c:\\users\\storreglosa\\source\\repos\\parqueinformatico\\capaadministrador\\views\\dispositivo\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{198062FF-5101-4B4C-9807-FDD88BB08E0C}|CapaAdministrador\\CapaAdministrador.csproj|solutionrelative:capaadministrador\\views\\dispositivo\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pantalla.cshtml",
+              "DocumentMoniker": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Dispositivo\\Pantalla.cshtml",
+              "RelativeDocumentMoniker": "CapaAdministrador\\Views\\Dispositivo\\Pantalla.cshtml",
+              "ToolTip": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Dispositivo\\Pantalla.cshtml",
+              "RelativeToolTip": "CapaAdministrador\\Views\\Dispositivo\\Pantalla.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAowF0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T16:44:12.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Escaner.cshtml",
+              "DocumentMoniker": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Dispositivo\\Escaner.cshtml",
+              "RelativeDocumentMoniker": "CapaAdministrador\\Views\\Dispositivo\\Escaner.cshtml",
+              "ToolTip": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Dispositivo\\Escaner.cshtml",
+              "RelativeToolTip": "CapaAdministrador\\Views\\Dispositivo\\Escaner.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T16:43:42.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Impresora.cshtml",
+              "DocumentMoniker": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Dispositivo\\Impresora.cshtml",
+              "RelativeDocumentMoniker": "CapaAdministrador\\Views\\Dispositivo\\Impresora.cshtml",
+              "ToolTip": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Dispositivo\\Impresora.cshtml",
+              "RelativeToolTip": "CapaAdministrador\\Views\\Dispositivo\\Impresora.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T16:43:25.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Computadora.cshtml",
+              "DocumentMoniker": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Dispositivo\\Computadora.cshtml",
+              "RelativeDocumentMoniker": "CapaAdministrador\\Views\\Dispositivo\\Computadora.cshtml",
+              "ToolTip": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Dispositivo\\Computadora.cshtml",
+              "RelativeToolTip": "CapaAdministrador\\Views\\Dispositivo\\Computadora.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T16:42:54.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dispositivo.cs",
+              "DocumentMoniker": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaEntidad\\Dispositivo.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\Dispositivo.cs",
+              "ToolTip": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaEntidad\\Dispositivo.cs",
+              "RelativeToolTip": "CapaEntidad\\Dispositivo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T13:53:12.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Nuevo.cshtml",
+              "DocumentMoniker": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Dispositivo\\Nuevo.cshtml",
+              "RelativeDocumentMoniker": "CapaAdministrador\\Views\\Dispositivo\\Nuevo.cshtml",
+              "ToolTip": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Dispositivo\\Nuevo.cshtml",
+              "RelativeToolTip": "CapaAdministrador\\Views\\Dispositivo\\Nuevo.cshtml",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAFsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T13:50:06.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Dispositivo\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "CapaAdministrador\\Views\\Dispositivo\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Dispositivo\\Eliminar.cshtml",
+              "RelativeToolTip": "CapaAdministrador\\Views\\Dispositivo\\Eliminar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T13:36:23.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CapaAdministrador\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CapaAdministrador\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwCoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T13:18:02.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DispositivoController.cs",
+              "DocumentMoniker": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Controllers\\DispositivoController.cs",
+              "RelativeDocumentMoniker": "CapaAdministrador\\Controllers\\DispositivoController.cs",
+              "ToolTip": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Controllers\\DispositivoController.cs",
+              "RelativeToolTip": "CapaAdministrador\\Controllers\\DispositivoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T12:55:48.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CapaAdministrador\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\storreglosa\\source\\repos\\ParqueInformatico\\CapaAdministrador\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CapaAdministrador\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAQwFkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T12:42:11.537Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
