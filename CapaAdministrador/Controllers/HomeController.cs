@@ -45,6 +45,20 @@ namespace CapaAdministrador.Controllers
             ViewBag.Message = "Your application description page.";
 
             return View();
+        } 
+        
+        public ActionResult DN()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+        
+        public ActionResult DGA()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
         }
 
         public ActionResult Contact()

@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "Dirección Nacional";
+}
+<main>
+    <div class="card-body">
+        <div style="margin-top: 20px" class="row">
+            <section class="col-md-12" aria-labelledby="gettingStartedTitle">
+                <div class="card mb-4">
+                    <div  class="card-header">
+                        <i class="fas fa-table me-1"></i>
+                        Direcci&oacute;n Nacional
+                    </div>
+                    <div class="card-body">
+                        <table id="tablaDN" class="display cell-border table" style="width: 100%">
+                            <thead class="table thead-dark">
+                                <tr>
+                                    <th class="col-md-6" scope="col">Dependencia</th>
+                                    <th class="col-md-4" scope="col">Cantidad de Dispositivos</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</main>
+
+@*<table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+            </tr>
+        </tbody>
+    </table>*@
+
+
+@section scripts
+            {
+
+
+    <script>
+
+                var tablaDN;
+
+                jQuery.ajax({
+                    url: '@Url.Action("ListarDependencias","Home")',
+                    type: "GET",
+                    dataType: "Json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        console.log(data);
+                    }
+
+                }),
+
+
+                tablaDN = $("#tablaDN").DataTable({
+                    responsive: true,
+                    ordering: true,
+                    "ajax": {
+                        url: '@Url.Action("ListarDependencias","Home")',
+                        type: "GET",
+                        dataType: "Json"
+                    },
+                    "columns": [
+                        { "data": "Descripcion" },
+                        { "data": "Id" }
+
+                ]
+                })
+
+    </script>
+}

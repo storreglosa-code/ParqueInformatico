@@ -10,41 +10,12 @@
     <div class="card-body">
         <div class="row">
             <section class="col-md-12" aria-labelledby="gettingStartedTitle">
-                <h3 id="gettingStartedTitle">Listado de Dependencias</h3>
-
-                <table id="tablaDN" class="display cell-border table" style="width: 100%">
-                    <thead>
-                        <tr>
-                            <th class="col-md-4" scope="col">Dependencia</th>
-                            <th class="col-md-4" scope="col">Cantidad de Dispositivos</th>
-                        </tr>
-                    </thead>
-
-                </table>
-
-                <p><a class="btn btn-outline-dark" @Html.ActionLink("Buscar", "Buscar", "Home", new { area = "" }, new { @class = "nav-link" })</a></p>
+                <h3 id="gettingStartedTitle">Inserte el humo aqui...</h3>
 
             </section>
         </div>
 
-        <div class="row">
-            <section class="col-md-12" aria-labelledby="gettingStartedTitle">
-                <h3 id="gettingStartedTitle">Listado de Dependencias</h3>
-
-                <table id="tablaDGA" class="display cell-border table" style="width: 100%">
-                    <thead>
-                        <tr>
-                            <th class="col-md-4" scope="col">Dependencia</th>
-                            <th class="col-md-4" scope="col">Cantidad de Dispositivos</th>
-                        </tr>
-                    </thead>
-
-                </table>
-
-                <p><a class="btn btn-outline-dark" @Html.ActionLink("Buscar", "Buscar", "Home", new { area = "" }, new { @class = "nav-link" })</a></p>
-
-            </section>
-        </div>
+       
 
     </div>
 
@@ -52,71 +23,6 @@
 
 
 
-@section scripts
-            {
-    <script>
-
-                var tablaDN;
-                var tablaDGA;
-
-                jQuery.ajax({
-                    url: '@Url.Action("ListarDependencias","Home")',
-                    type: "GET",
-                    dataType: "Json",
-                    contentType: "application/json; charset=utf-8",
-                    success: function (data) {
-                        console.log(data);
-                    }
-
-                }),
-
-
-                tablaDN = $("#tablaDN").DataTable({
-                    responsive: true,
-                    ordering: true,
-                    "ajax": {
-                        url: '@Url.Action("ListarDependencias","Home")',
-                        type: "GET",
-                        dataType: "Json"
-                    },
-                    "columns": [
-                        { "data": "Descripcion" },
-                        { "data": "Id" }
-
-                ]
-                })
-
-                    @*jQuery.ajax({
-        url: '@Url.Action("ListarDependenciasDGA", "Home")',
-        type: "GET",
-        dataType: "Json",
-        contentType: "application/json; charset=utf-8",
-        success: function (data) {
-            console.log(data);
-        }
-
-    }),*@
-
-
-    tablaDGA = $("#tablaDGA").DataTable({
-        responsive: true,
-        ordering: true,
-        "ajax": {
-            url: '@Url.Action("ListarDependenciasDGA","Home")',
-            type: "GET",
-            dataType: "Json"
-        },
-        "columns": [
-            { "data": "Descripcion" },
-            { "data": "Id" }
-
-    ]
-})
-
-
-
-    </script>
-}
 
 
 

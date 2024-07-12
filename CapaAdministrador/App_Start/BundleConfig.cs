@@ -15,6 +15,8 @@ namespace CapaAdministrador
                     "~/Scripts/fontawesome/all.min.js",
                     "~/Scripts/DataTables/jquery.dataTables.js",
                     "~/Scripts/DataTables/jquery.dataTables.responsive.js",
+                    "~/Scripts/DataTables/dataTables.bootstrap.min.js",
+                    "~/Scripts/DataTables/dataTables.bootstrap4.min.js",
                     "~/Scripts/scripts.js"));
 
             //bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
@@ -26,7 +28,9 @@ namespace CapaAdministrador
             //            "~/Scripts/modernizr-*"));
 
             bundles.Add(new Bundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.bundle.js"));
+                      "~/Scripts/bootstrap.bundle.js",
+                      "~/Scripts/scripts.js",
+                      "~/Scripts/bootstrap.min.js"));
 
             //bundles.Add(new Bundle("~/bundles/bootstrap").Include(
             //          "~/Scripts/bootstrap.js",
